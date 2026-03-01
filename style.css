@@ -2,44 +2,55 @@ body {
   overflow-x: hidden;
   margin-top: 50px;
 	margin-bottom: 50px;
-	margin-left: 10px;
-	margin-right: 10px;
-	background-color: #000000;
-  color: #3ee371;
+	margin-left: 20px;
+	margin-right: 20px;
+	background: linear-gradient(130deg,#11111b 0%,#181825 40%,#1e1e2e 100%);
+  color: #a6d189;
   font-family: "Fira Code", monospace;
 }
 
 .terminal {
   max-width: 900px;
   margin: 20px auto;
-  background-color: #0e1210;
+  background-color: #11111b;
   padding: 20px;
-  border-radius: 8px;
-  box-shadow: 0 0 30px #cdd6f4;
+  box-shadow: 0 0 20px rgba(203, 166, 247, 0.35); 
+	border-radius: 8px;
+}
+
+.line {
+  word-break: break-word;
+  overflow-wrap: anywhere;
 }
 
 .header {
-  color: #7aa2f7;
+  color: #89b4fa;
   margin-bottom: 16px;
 }
 
 .cmd {
-  color: #9ece6a;
+  color: #a6e3a1;
   margin-top: 18px;
 }
 
 .title {
-  color: #7dcfff;
+  color: #74c7ec;
   margin-top: 10px;
 }
 
 .prompt {
-  color: #7aa2f7;
+  color: #89b4fa;
   margin-top: 20px;
 }
 
 .dim {
-  color: #566089;
+  color: #9399b2;
+}
+
+.fastfetch {
+  color: #1793d1;
+  font-size: 13px;
+  margin-left: 12px;
 }
 
 ul {
@@ -49,7 +60,7 @@ ul {
 
 li::before {
   content: "• ";
-  color: #bb9af7;
+  color: #b4befe;
 }
 
 li {
@@ -59,7 +70,7 @@ li {
 }
 
 a {
-  color: #bb9af7;
+  color: #b4befe;
   text-decoration: none;
 }
 
