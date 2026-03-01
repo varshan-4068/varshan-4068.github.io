@@ -2,8 +2,8 @@ body {
   overflow-x: hidden;
   margin-top: 50px;
 	margin-bottom: 50px;
-	margin-left: 20px;
-	margin-right: 20px;
+	margin-left: 10px;
+	margin-right: 10px;
 	background: linear-gradient(130deg,#11111b 0%,#181825 40%,#1e1e2e 100%);
   color: #a6d189;
   font-family: "Fira Code", monospace;
